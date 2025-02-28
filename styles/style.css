@@ -107,7 +107,6 @@ input[type="file"] {
     transition: padding 1s;
 }
 #rodapefilmes{
-    height: 50vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
