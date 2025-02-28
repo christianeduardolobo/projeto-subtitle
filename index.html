@@ -19,7 +19,8 @@
             <form action="enviarfilme.php" method="get" autocomplete="off">
                 <span id="videoicon" class="material-symbols-outlined">
                     video_file
-                    </span> <input type="file" name="video" id="ivideo">
+                    </span> <input type="file" name="video" id="ivideo" hidden>
+                    <label id="iivideo" for="ivideo">Escolher Arquivo de Filme</label>
             </form>
         </div>
         <hr>
@@ -27,7 +28,8 @@
             <p>Aqui você enviará o arquivo <mark style="background-color: rgb(255, 255, 255);">.SRT</mark> ou outros tipos de formato de legenda</p>
             <form action="enviarlegenda.php">
                 <img id="subtitleicon" src="components/images/subtitle.png" alt="subtitle.png">
-                <input type="file" name="legenda" id="ilegenda">
+                <input type="file" name="legenda" id="ilegenda" hidden>
+                <label id="iilegenda" for="ilegenda">Escolher Arquivo de Legenda</label>
             </form>
         </div>
         <hr>
