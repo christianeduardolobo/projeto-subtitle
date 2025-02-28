@@ -11,8 +11,24 @@
     }
 }
 
-@media screen and (min-width: 762px){
-    body{
-        background-image: url();
+@media screen and (min-width: 700px){
+    main{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    #legenda{
+        width: 600px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 655px){
+    main{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    #filme{
+        width: 600px;
+        margin: 20px auto;
     }
 }
