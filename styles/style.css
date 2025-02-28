@@ -86,7 +86,7 @@ footer > div > h1{
     font-size: 2em;
     text-align: center;
     padding-bottom: 20px;
-    color: rgb(141, 92, 255);
+    color: rgb(246, 242, 255);
 }
 #rodapefilmes:hover > :not(:hover){
     opacity: 0.5;
