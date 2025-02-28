@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SicronizaAI</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediq.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=video_file" />
+</head>
+<body>
+    <main>
+        <nav>
+            <h1>Sicronizador de Legendas</h1>
+        </nav>
+        <hr>
+        <div id="filme">
+            <p>Aqui você enviará o filme que deseja sicronizar a legenda</p>
+            <form action="enviarfilme.php" method="get" autocomplete="off">
+                <span id="videoicon" class="material-symbols-outlined">
+                    video_file
+                    </span> <input type="file" name="video" id="ivideo">
+            </form>
+        </div>
+        <hr>
+        <div id="legenda">
+            <p>Aqui você enviará o arquivo <mark style="background-color: rgb(255, 255, 255);">.SRT</mark> ou outros tipos de formato de legenda</p>
+            <form action="enviarlegenda.php">
+                <img id="subtitleicon" src="components/images/subtitle.png" alt="subtitle.png">
+                <input type="file" name="legenda" id="ilegenda">
+            </form>
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <div>
+            <h1>Filmes Recomendados: </h1>
+        </div>
+        <hr>
+        <div id="rodapefilmes">
+            <img class="card" src="components/images/dracula.jpg" alt="dracula.jpg">
+            <img class="card" src="components/images/interstelar.jpg" alt="interstelar.jpg">
+            <img class="card" src="components/images/it-a-coisa.jpg" alt="it a coisa.jpg">
+            <img class="card" src="components/images/spiderman-morales.jpg" alt="spider man.jpg">
+            <img class="card" src="components/images/velozes-e-furiosos.jpg" alt="velozes e furiosos.jpg">
+        </div>
+    </footer>
+</body>
+</html>

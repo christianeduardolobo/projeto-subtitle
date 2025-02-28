@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+body, html{
+    color: rgb(0, 0, 0);
+    background-image: url(../components/images/background-cell.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    color: rgb(141, 92, 255);
+}
+input[type="file"] {
+    color: transparent;
+}
+#filme{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(252, 252, 252);
+    height: 100px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: 2px dashed rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+#legenda{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: 2px dashed rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+#videoicon{
+    transform: scale(1);
+    transform: translateY(6px);
+    width: 7px;
+    color: black;
+   
+}
+#subtitleicon{
+    transform: translate(16px, 10px);
+    width: 30px;
+}
+#ivideo{
+    padding: 10px;
+    margin-right: -145px;
+    cursor: pointer;
+}
+#ilegenda{
+    padding: 10px;
+    margin-right: -145px;
+    cursor: pointer;
+}
+#rodapefilmes{
+    height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer > div > h1{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(141, 92, 255);
+}
+#rodapefilmes:hover > :not(:hover){
+    opacity: 0.5;
+}
+.card{
+    width: 200px;
+    height: 280px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 4px 6px 11px 0px rgb(0, 0, 0);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+hr{
+    width: 300px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
